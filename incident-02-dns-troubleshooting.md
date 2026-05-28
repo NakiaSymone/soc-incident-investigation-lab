@@ -1,29 +1,42 @@
+# Incident 02: DNS Resolution Investigation
 
-# Incident 02: DNS Troubleshooting Investigation
+## Alert Summary
+Network connectivity and domain name resolution were tested following reports of potential access issues.
 
-## Description
-User experienced potential network name resolution issues. DNS functionality was tested using command-line tools to confirm connectivity.
+---
+
+## Investigation Process
+The following diagnostic steps were performed:
+
+- Executed `nslookup` to verify DNS resolution for valid domains
+- Performed `ping` tests to confirm network reachability
+- Tested invalid domain resolution to observe DNS failure behavior
+
+---
 
 ## Evidence Collected
-- nslookup google.com returned valid IP address
-- ping google.com confirmed network connectivity
-- nslookup fakeexample.invalid returned failed resolution (expected behavior)
-- Screenshot evidence stored in repository
+- `nslookup google.com` successfully returned valid IP address
+- `ping google.com` confirmed active network connectivity
+- `nslookup fakeexample.invalid` returned expected failure (NXDOMAIN)
+- Screenshot evidence captured and stored in repository
 
-## Tools Used
-- Terminal (macOS)
-- nslookup
-- ping
+---
 
 ## Analysis
-DNS resolution is functioning normally for valid domains. Failed lookup for invalid domain confirms DNS is properly rejecting non-existent entries. No evidence of DNS outage detected.
+DNS resolution for valid domains is functioning normally. Network connectivity is stable, and no evidence of DNS outage or misconfiguration was observed.
 
-## Risk Level
-Low
+The failed lookup for a non-existent domain confirms expected DNS behavior rather than a system issue.
 
-## Conclusion
-No DNS-related incident detected. System name resolution is operating as expected.
+---
 
-## Recommended Actions
-- No immediate action required
-- Continue monitoring DNS performance if user complaints arise
+## Risk Assessment
+**Risk Level: Low**
+
+No indicators of DNS compromise or service failure were identified during this investigation.
+
+---
+
+## Recommendation
+- No immediate remediation required
+- Continue monitoring DNS resolution if user-reported issues occur
+- Verify DNS settings if future connectivity issues arise
