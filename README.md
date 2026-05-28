@@ -1,54 +1,54 @@
 # SOC Incident Investigation Lab (macOS)
 
 ## Overview
-This project simulates entry-level SOC analyst investigations using macOS networking and system tools. The lab focuses on DNS troubleshooting, login activity analysis, and network connection monitoring.
+This project simulates real-world Tier 1 SOC analyst investigations using macOS system and networking tools. The goal is to demonstrate how security analysts collect evidence, investigate alerts, and document findings using structured incident reports.
 
 ---
 
-## Objectives
-- Practice SOC investigation workflow
-- Analyze system and network activity
-- Document findings professionally
-- Develop hands-on cybersecurity experience
+## SOC Workflow Demonstrated
+In this lab, each incident follows a standard SOC investigation process:
 
----
-
-## Tools Used
-- macOS Terminal
-- lsof
-- ping
-- nslookup
-- System logs
-- GitHub documentation
+1. Alert or anomaly detection
+2. Evidence collection (logs, terminal output, screenshots)
+3. Analysis of network or system behavior
+4. Risk assessment
+5. Final recommendation
 
 ---
 
 ## Investigations Completed
 
-### 1. Suspicious Login Activity
-Reviewed authentication-related activity and analyzed potential unauthorized access attempts.
+### Incident 01: Suspicious Login Activity
+Investigated authentication logs and system login history to identify potential unauthorized access attempts.
 
-### 2. DNS Troubleshooting Investigation
-Performed DNS resolution testing and network connectivity verification using command-line tools.
+### Incident 02: DNS Resolution Investigation
+Analyzed DNS behavior using nslookup and ping to confirm whether name resolution was functioning correctly.
 
-### 3. Port and Network Activity Analysis
-Reviewed active network connections and listening ports to identify potential risks.
+### Incident 03: Network Port & Connection Analysis
+Examined active network connections and open ports using terminal tools to identify running services and network activity.
+
+---
+
+## Tools Used
+- macOS Terminal
+- nslookup
+- ping
+- lsof
+- System log review
+- GitHub documentation
 
 ---
 
 ## Skills Demonstrated
-- Network troubleshooting
-- DNS analysis
-- Port and service awareness
-- Security documentation
-- Incident investigation workflow
-- macOS command-line analysis
+- Log analysis and interpretation
+- DNS troubleshooting
+- Network connection analysis
+- Security incident documentation
+- SOC-style investigation workflow
+- Evidence-based reporting
 
 ---
 
-## Repository Structure
-
-```text
-investigations/
-screenshots/
+## Key Takeaway
+This project demonstrates foundational SOC Tier 1 skills including security monitoring, troubleshooting, and structured incident reporting based on observed system behavior.
 logs/
