@@ -1,0 +1,22 @@
+NETWORK EVIDENCE LOG (SOC LAB)
+
+Date: 2026-05-28
+
+Collected Command Outputs:
+
+1. DNS Resolution Test
+- Command: nslookup google.com
+- Result: Successful IP resolution
+
+2. Connectivity Test
+- Command: ping google.com
+- Result: Successful responses, no packet loss observed
+
+3. Network Connection Review
+- Command: lsof -i
+- Result: Active system and application network connections observed
+
+Notes:
+- All outputs are baseline normal behavior
+- No indicators of compromise detected during tests
+- Logs stored for correlation with investigation reports
