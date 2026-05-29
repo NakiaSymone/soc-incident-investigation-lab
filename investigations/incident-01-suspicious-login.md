@@ -44,3 +44,6 @@ At this time, there is no evidence of system compromise. However, repeated authe
 - Monitor future authentication logs for repeated failures
 - Review remote login settings if enabled
 - Continue logging authentication activity for anomaly detection
+
+## Evidence Reference
+Supporting screenshots and raw command outputs are stored in the `/screenshots` and `/logs` directories for validation and audit purposes. 
