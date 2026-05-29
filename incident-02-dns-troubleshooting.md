@@ -40,3 +40,6 @@ No indicators of DNS compromise or service failure were identified during this i
 - No immediate remediation required
 - Continue monitoring DNS resolution if user-reported issues occur
 - Verify DNS settings if future connectivity issues arise
+
+## Evidence Reference
+Supporting screenshots and raw command outputs are stored in the `/screenshots` and `/logs` directories for validation and audit purposes.
