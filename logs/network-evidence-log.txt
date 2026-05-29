@@ -1,22 +1,28 @@
-NETWORK EVIDENCE LOG (SOC LAB)
+SOC EVIDENCE LOG
 
+System: macOS Analysis Environment
 Date: 2026-05-28
 
-Collected Command Outputs:
+--------------------------------------------------
 
-1. DNS Resolution Test
-- Command: nslookup google.com
-- Result: Successful IP resolution
+DNS RESOLUTION TEST
+Command: nslookup google.com
+Result: Successful resolution to valid IP address
 
-2. Connectivity Test
-- Command: ping google.com
-- Result: Successful responses, no packet loss observed
+--------------------------------------------------
 
-3. Network Connection Review
-- Command: lsof -i
-- Result: Active system and application network connections observed
+CONNECTIVITY TEST
+Command: ping google.com
+Result: Successful responses observed with no packet loss
 
-Notes:
-- All outputs are baseline normal behavior
-- No indicators of compromise detected during tests
-- Logs stored for correlation with investigation reports
+--------------------------------------------------
+
+NETWORK CONNECTION REVIEW
+Command: lsof -i
+Result: Active system and application network connections identified
+
+--------------------------------------------------
+
+SUMMARY
+All collected evidence indicates normal system and network behavior.
+No indicators of compromise were detected during analysis.
