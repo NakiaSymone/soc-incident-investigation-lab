@@ -41,3 +41,6 @@ While no active threats were detected, open network connections should always be
 - Disable unnecessary network services where possible
 - Monitor for unfamiliar external IP connections
 - Ensure firewall rules are properly configured
+
+## Evidence Reference
+Supporting screenshots and raw command outputs are stored in the `/screenshots` and `/logs` directories for validation and audit purposes.
