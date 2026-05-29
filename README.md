@@ -36,6 +36,7 @@ Examined active network connections and open ports using terminal tools to ident
 - lsof
 - System log review
 - GitHub documentation
+- Evidence logging (structured SOC-style documentation)
 
 ---
 
